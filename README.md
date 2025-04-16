@@ -1,5 +1,3 @@
-# multibase
-
 # Numeral System Converter and Expression Evaluator
 
 A Python module for converting numbers between numeral systems (2-36) and evaluating cross-base mathematical expressions.  
