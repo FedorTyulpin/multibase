@@ -8,7 +8,7 @@ A Python module for converting numbers between numeral systems (2-36) and evalua
 - Mixed-base calculations (`+`, `-`, `*`, `/`, `^`, parentheses)  
 - Minimum base detection  
 - Custom error handling  
-
+- https://pypi.org/project/BaseKit/
 
 
 ## Quick Start
