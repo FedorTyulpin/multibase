@@ -13,7 +13,13 @@ A Python module for converting numbers between numeral systems (2-36) and evalua
 
 ## Quick Start
 
-### 1. **Convert Numbers**
+### 1. **Install**
+
+```PowerShell
+pip install BaseKit
+```
+
+### 2. **Convert Numbers**
 
 ```python
 from BaseKit import rebase
@@ -30,7 +36,7 @@ print(rebase("A.8_16", to_base=10))  # "10.5_10" (hex -> decimal)
 print(rebase("0.1_2", to_base=10, rounding=6))  # "0.5_10"
 ```
 
-### 2. **Evaluate Cross-Base Expressions**
+### 3. **Evaluate Cross-Base Expressions**
 
 ```python
 from BaseKit import eval2dec, rebase
@@ -47,7 +53,7 @@ print(rebase("f_30*10010_2", to_base=5))  # "2040_5" 30 + 33 = 270
 
 ```
 
-### 3. **Find Minimum Valid Base**
+### 4. **Find Minimum Valid Base**
 
 ```python
 from BaseKit import minBase
